@@ -1,5 +1,5 @@
-# kuliah-CPP
+# _kuliah-CPP_ #
 
-SEMESTER 3 INFORMATIKA 
-- OS  : Linux
-- IDE : visual Studio Code
+# MANAJEMEN INFORMATIKA # 
++ OS  : Linux
++ IDE : visual Studio Code
