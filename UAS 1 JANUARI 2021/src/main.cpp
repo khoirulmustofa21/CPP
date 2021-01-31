@@ -1,17 +1,19 @@
 #include <iostream>
+using namespace std;
 
 int main(){
 	int i,jumlahData,inputData[100];
 	int rataRata,jumlah,terbesar,terkecil;
 	
-	std::cout << "Masukan Jumlah Data : ";std::cin >> jumlahData; 
+	cout << "Masukan Jumlah Data : ";cin >> jumlahData; 
 	
 	for (i = 1; i <= jumlahData; i++){ // perulangan yang digunakan untuk input data array
-		std::cout << "Masukan ke " << i << " : "; std::cin >> inputData[i];
+		cout << "Masukan ke " << i << " : "; cin >> inputData[i];
 		}
 
 	//Terbesar
-	terbesar = inputData[0];
+	terkecil = inputData[1];
+	terbesar = inputData[1];
 	//proses perulangan untuk mencari nilai terbesar dan terkecil
 	for (i = 1; i <= jumlahData; i++){
 		if (inputData[i] > terbesar){ //pemilihan nilai terbesar
@@ -33,11 +35,12 @@ int main(){
 	
 		
 		
-	std::cout << "--------------------" << std::endl;
-	std::cout << "--------------------" << std::endl;
-	std::cout << "Jumlah    : " << jumlah << std::endl;
-	std::cout << "Rata-Rata : " << rataRata << std::endl;
-	std::cout << "Terbesar  : " << terbesar << std::endl;
-	std::cout << "Terkecil  : " << terkecil << std::endl;
-
+	cout << "--------------------" << endl;
+	cout << "--------------------" << endl;
+	cout << "Jumlah    : " << jumlah << endl; //menampilkann hasil nilai penjumlahan 
+	cout << "Rata-Rata : " << rataRata << endl; //menampilan hasil nilai rata-rata 
+	cout << "Terbesar  : " << terbesar << endl; //menampilkan hasil nilai terbesar
+	cout << "Terkecil  : " << terkecil << endl; //menampilkan hasil nilai terkecil
+	
+return 0;
 }
