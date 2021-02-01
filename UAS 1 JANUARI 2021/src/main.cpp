@@ -19,7 +19,7 @@ int main(){
 		if (inputData[i] > terbesar){ //pemilihan nilai terbesar
 			terbesar = inputData[i];
 		}
-		else if (terkecil < inputData[i]){ //pemilihan nilai terkecil
+		else if (inputData[i] < terkecil){ //pemilihan nilai terkecil
 			terkecil = inputData[i];
 		}	
 	}		
