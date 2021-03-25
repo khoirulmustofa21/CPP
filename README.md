@@ -1,4 +1,4 @@
-# _kuliah-CPP_ #
+
 
 # MANAJEMEN INFORMATIKA # 
 + OS  : Linux
